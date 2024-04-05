@@ -1,0 +1,47 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-red);
+  background: linear-gradient(90deg, #cb0931, #cb0931, #b61940, #b6197e);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1%;
+}
+
+.logo {
+  width: 210px;
+}
+
+header nav div a {
+  color: white;
+  padding: 0 10px;
+}
+
+header nav a {
+  /* border: 2px solid blue; */
+}
+
+header nav div {
+  width: 290px;
+}
+
+.doTeste {
+  background-color: white;
+  color: var(--primary-red);
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+}

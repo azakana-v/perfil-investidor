@@ -1,0 +1,171 @@
+.quizz {
+  background-color: var(--primary-red);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quizz-container {
+  width: 50%;
+  height: 80%;
+  background-color: white;
+  border-radius: 30px;
+  padding: 5% 0 0 3%;
+}
+
+.quizz-title {
+  font-size: 47px;
+  color: var(--primary-red);
+  width: 100%;
+}
+
+.start-quizz {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 2%;
+  width: 60%;
+  font-size: 40px;
+  padding: 1%;
+  background-color: var(--primary-red);
+  color: white;
+  border-radius: 15px 50px 50px 15px;
+  transition: 0.2s;
+}
+
+.bx {
+  font-size: 70px;
+  text-align: center;
+}
+
+.start-quizz:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+
+.quizz-subtitle {
+  margin-top: 5%;
+  font-size: 40px;
+  color: var(--primary-red);
+  width: 70%;
+}
+
+.bradesco-logo {
+  margin-top: 4%;
+  width: 130px;
+  height: 130px;
+}
+
+.alternativas {
+  width: 75%;
+  height: 67%;
+}
+
+.alternativas div {
+  margin: 1% 1%;
+}
+
+.question-title {
+  font-size: 47px;
+  color: var(--primary-red);
+  width: 100%;
+}
+
+.question-indice {
+  font-size: 24px;
+  color: gray;
+}
+
+.alternative-icon {
+  background-color: var(--primary-red);
+  font-size: 23px;
+  height: 100%;
+  color: white;
+  border-radius: 500px;
+  padding: 15px 24px;
+}
+
+.alternative-info {
+  margin-left: 15px;
+  color: white;
+  background-color: var(--primary-red);
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+.a,
+.b,
+.c {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.a:hover,
+.b:hover,
+.c:hover {
+  scale: 1.05;
+}
+
+.bradesco-logo-question {
+  top: 0px;
+  right: 0px;
+  width: 130px;
+  background-color: var(--primary-red);
+  height: 130px;
+  position: relative;
+  border: 2px solid blue;
+}
+
+.finish-title {
+  text-align: center;
+  font-size: 47px;
+  color: var(--primary-red);
+  width: 100%;
+}
+
+.finish-info {
+  text-align: center;
+  color: var(--primary-red);
+  width: 100%;
+  padding: 0 3%;
+}
+
+.finish-card p {
+  margin: 2% 0;
+}
+
+.finish-card {
+  margin-right: 50px;
+}
+
+.aside-logo {
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .start-quizz {
+    font-size: 25px;
+    text-align: left;
+    width: 80%;
+  }
+  .quizz-title {
+    font-size: 30px;
+  }
+  .quizz-subtitle {
+    font-size: 30px;
+  }
+  .question-title {
+    font-size: 28px;
+  }
+
+  .alternativas {
+    width: 90%;
+    font-size: 13px;
+  }
+}
